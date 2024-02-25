@@ -6,8 +6,8 @@ if ! uname -a | grep -qi "ubuntu"; then
     exit 1
 fi
 
-sudo apt update 
-sudo apt upgrade
+sudo apt -y update 
+sudo apt -y upgrade
 
 # Download and install Google Chrome if Chrome not installed
 if ! [ -x "$(command -v google-chrome)" ]; then
@@ -19,4 +19,4 @@ else
 fi
 
 # Install other Important stuff
-sudo apt install build-essentials samba ark git dolphin kate kwrite konqueror meld cutecom putty vlc default-jre xfce4 xfce4-goodies wine vim ubuntu-restricted-extras wireshark automake cmake net-tools x264 x265 bison flex fakeroot gcc multili g++-multilib expect ncurses-dev ffmpeg libgstreamer1.0.dev libssl-dev manpages-posix manpages-posix-dev kcalc kded5 xdotool openssh-server dolphin-plugins lib32zl
+sudo apt -y install build-essentials samba ark git dolphin kate kwrite konqueror meld cutecom putty vlc default-jre xfce4 xfce4-goodies wine vim ubuntu-restricted-extras wireshark automake cmake net-tools x264 x265 bison flex fakeroot gcc multili g++-multilib expect ncurses-dev ffmpeg libgstreamer1.0.dev libssl-dev manpages-posix manpages-posix-dev kcalc kded5 xdotool openssh-server dolphin-plugins lib32zl
