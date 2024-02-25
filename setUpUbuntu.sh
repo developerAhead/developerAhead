@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Check if the kernel name does not contain "Ubuntu"
-if ! uname -a | grep -qi "ubuntu"; then
+if ! [uname -a | grep -qi "ubuntu"]; then
     echo "This system is not running Ubuntu. Exiting."
     exit 1
 fi
@@ -19,4 +19,4 @@ else
 fi
 
 # Install other Important stuff
-sudo apt -y install build-essentials samba ark git dolphin kate kwrite konqueror meld cutecom putty vlc default-jre xfce4 xfce4-goodies wine vim ubuntu-restricted-extras wireshark automake cmake net-tools x264 x265 bison flex fakeroot gcc multili g++-multilib expect ncurses-dev ffmpeg libgstreamer1.0.dev libssl-dev manpages-posix manpages-posix-dev kcalc kded5 xdotool openssh-server dolphin-plugins lib32zl
+sudo apt -y install build-essential samba ark git dolphin kate kwrite konqueror meld cutecom putty vlc default-jre xfce4 xfce4-goodies wine vim ubuntu-restricted-extras wireshark automake cmake net-tools x264 x265 bison flex fakeroot gcc multilib g++-multilib expect ncurses-dev ffmpeg libgstreamer1.0-dev libssl-dev manpages-posix manpages-posix-dev kcalc kded5 xdotool openssh-server dolphin-plugins lib32z1
