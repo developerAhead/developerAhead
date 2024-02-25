@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Check if the kernel name does not contain "Ubuntu"
-if ! [uname -a | grep -qi "ubuntu"]; then
+if ! [ uname -a | grep -qi "ubuntu" ]; then
     echo "This system is not running Ubuntu. Exiting."
     exit 1
 fi
