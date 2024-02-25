@@ -20,4 +20,4 @@ fi
 
 # Install other Important stuff
 sudo apt -y install build-essential samba ark git dolphin kate kwrite konqueror meld cutecom putty vlc default-jre wine vim ubuntu-restricted-extras wireshark automake cmake net-tools x264 x265 bison flex fakeroot gcc-multilib g++-multilib expect ncurses-dev ffmpeg libgstreamer1.0-dev libssl-dev manpages-posix manpages-posix-dev kcalc kded5 xdotool openssh-server dolphin-plugins lib32z1
-sudo apt -y gnome
+
