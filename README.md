@@ -1,8 +1,6 @@
-- 👋 Hi, I’m Smeet Raj, an Embedded Software Developer & Linux Enthusiast
-- 👀 I’m interested in C/C++, Shell Scripting and almost anything related to Linux
-- 🌱 I’m currently learning GIT
-- 💞️ I’m looking to collaborate on learning almost anything
-- 📫 How to reach me [linkedin/smeet-raj](https://www.linkedin.com/in/smeet-raj/)
+I’m an Embedded Software Engineer turning bits into brains for embedded products.
+These days, I’m working on compute SoCs & CPU software stacks — making silicon do smart things.
+When I’m not coding, I’m probably tinkering, snacking, or both. 🍕🔧
 
 <!---
 developerAhead/developerAhead is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
